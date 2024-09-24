@@ -1,16 +1,18 @@
-## Hi there 👋
+# @leonsilicon
 
-<!--
-**cristiandelahooz/cristiandelahooz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+delusional hacker-founder\
+world's fastest coder (probably not actually, but it makes for a catchy tagline :)\
+co-founder of [tunnel.dev](https://tunnel.dev) (neo '23)
 
-Here are some ideas to get you started:
+## dev stuff
+[my macOS configs](https://github.com/leonsilicon/macos-configs)\
+[wakatime](https://wakatime.com/@leonsilicon)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## socials
+
+never thought i'd be posting regularly on social media but my friends said i'd be a great content creator and turns out they might've been right 😅
+
+[tiktok](https://tiktok.com/@leonsilicon)\
+[instagram](https://instagram.com/leonsilicon)\
+[twitter](https://twitter.com/leonsilicon)\
+[youtube](https://youtube.com/@leonsilicon)
