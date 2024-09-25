@@ -12,11 +12,11 @@ import {
 
 const lightModeImageFilepath = path.join(
 	monorepoDirpath,
-	'data/figma-exports/README (Light Mode).png',
+	'generator/data/figma-exports/README (Light Mode).png',
 );
 const darkModeImageFilepath = path.join(
 	monorepoDirpath,
-	'data/figma-exports/README (Dark Mode).png',
+	'generator/data/figma-exports/README (Dark Mode).png',
 );
 
 const image = sharp(lightModeImageFilepath);

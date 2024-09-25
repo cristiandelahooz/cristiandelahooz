@@ -9,7 +9,7 @@ import { monorepoDirpath } from './paths.ts';
 export async function generateImagePieces(
 	{ imageFilepath }: { imageFilepath: string },
 ) {
-	const generatedDirpath = path.join(monorepoDirpath, 'generated');
+	const generatedDirpath = path.join(monorepoDirpath, 'generator/generated');
 
 	await fs.promises.rm(generatedDirpath, { recursive: true, force: true });
 	await fs.promises.mkdir(generatedDirpath, { recursive: true });
@@ -39,7 +39,7 @@ export async function generateImagePieces(
 			const { leftX, rightX, href: unparsedHref, imgSrc } = link;
 			const href = unparsedHref.replace(
 				'${LATEST_CONTENT_URL}',
-				'https://www.tiktok.com/@leonsilicon/video/7350626104736025862',
+				'https://www.linkedin.com/in/cristian-de-la-hoz-785b602b3/',
 			);
 
 			// If this image link is not directly next to the previous image link,
@@ -89,7 +89,7 @@ export async function generateImagePieces(
 			const bufferHash = await hash(buffer);
 			const filepath = path.join(
 				monorepoDirpath,
-				'generated',
+				'generator/generated',
 				`${bufferHash}.png`,
 			);
 			await fs.promises.writeFile(filepath, buffer);

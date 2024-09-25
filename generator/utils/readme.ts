@@ -7,7 +7,6 @@ import { outdent } from 'outdent';
 import path from 'pathe';
 import sharp from 'sharp';
 import { monorepoDirpath } from './paths.ts';
-// @ts-expect-error: bad typings
 import { convert2img } from 'mdimg';
 
 export async function generateReadmeMarkdownFile({
@@ -28,17 +27,16 @@ export async function generateReadmeMarkdownFile({
 	const getImagePieceSrc = (
 		{ filepath, imgSrc, theme }: ImagePiece & { theme: 'light' | 'dark' },
 	) =>
-		`https://leonsilicon.github.io/leonsilicon/generator/generated/${
-			imgSrc === undefined ?
-				path.basename(filepath) :
-				imgSrc.replace(
-					'${README_MD_SRC}',
-					path.basename(
-						theme === 'light' ?
-							lightModeReadmeMdImageFilepath :
-							darkModeReadmeMdImageFilepath,
-					),
-				)
+		`https://cristiandelahooz.github.io/cristiandelahooz/generator/generated/${imgSrc === undefined ?
+			path.basename(filepath) :
+			imgSrc.replace(
+				'${README_MD_SRC}',
+				path.basename(
+					theme === 'light' ?
+						lightModeReadmeMdImageFilepath :
+						darkModeReadmeMdImageFilepath,
+				),
+			)
 		}`;
 
 	const getImgWidth = (width: number) => `${(width / imageWidth) * 100}%`;
@@ -73,7 +71,7 @@ export async function generateReadmeMarkdownFile({
 	).join('') + readmeFooter;
 
 	await fs.promises.writeFile(
-		path.join(monorepoDirpath, '../readme.markdown'),
+		path.join(monorepoDirpath, './readme.markdown'),
 		readme,
 	);
 }
@@ -88,7 +86,7 @@ export async function convertReadmeMdToImage({
 	theme: 'light' | 'dark';
 }) {
 	const img = await convert2img({
-		mdFile: path.join(monorepoDirpath, '../README.md'),
+		mdFile: path.join(monorepoDirpath, './README.md'),
 		outputFilename: await os.tmpdir(),
 		width: imageWidth,
 		height: imageHeight,
@@ -104,7 +102,7 @@ export async function convertReadmeMdToImage({
 
 	const readmeMdImageFilepath = path.join(
 		monorepoDirpath,
-		`generated/readme-${theme}.${imgHash}.png`,
+		`generator/generated/readme-${theme}.${imgHash}.png`,
 	);
 
 	await image
