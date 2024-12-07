@@ -1,5 +1,5 @@
 <h1 align="left">
-      The image below is interactive! Try clicking on the tabs and icons:)   
+      The image below is interactive! Try clicking on the tabs and icons :)   
       <h2 align="center">
       <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Love-You Gesture Medium Skin Tone" width="30" height="30" >
       </h2>
