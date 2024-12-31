@@ -13,11 +13,12 @@ I am a third-year computer science student at the Pontificia Universidad Católi
 </br>
 [![SQL Server](https://img.shields.io/badge/SQL_Server-F7DF1E?style=for-the-badge&logo=sqlserver&logoColor=white&labelColor=101010)]()
 [![Spring Boot](https://img.shields.io/badge/Spring-47A248?style=for-the-badge&logo=spring&logoColor=white&labelColor=101010)]()
+[![Spring Boot](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
 
 </br>
 And more...
 
 ## Find me on:
 
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-@CristianDHoz-FA7343?style=for-the-badge&logo=stackoverflow&logoColor=white&labelColor=101010)](https://stackoverflow.com/users/23268945/cristiandhoz)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1575F9?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/cristian-de-la-hoz-785b602b3/)
+[![Porfolio](https://img.shields.io/badge/-Portfolio-FA7343?style=for-the-badge&logo=portfolio&logoColor=white&labelColor=101010)](cristiandelahoz.tech)
+
