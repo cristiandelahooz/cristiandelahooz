@@ -35,6 +35,6 @@ jobs:
           GIST_ID: e6e77169fc620bca4304466d182a3a8d
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_USERNAME: cristiandelahooz
-          EXCLUDE: ${{ vars.EXCLUDE }}
+          EXCLUDE: ${{ secrets.EXCLUDE }}
           EXCLUDE_REPO: ${{ vars.EXCLUDE_REPO }}
           DESCRIPTION: "languages"
