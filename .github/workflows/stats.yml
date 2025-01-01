@@ -25,7 +25,7 @@ jobs:
         run: npx github-stats-box@1
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: e6e77169fc620bca4304466d182a3a8d
+          GIST_ID: 3c3dabe404ddec8410596ab5f223f552
           ALL_COMMITS: true
           K_FORMAT: false
 
