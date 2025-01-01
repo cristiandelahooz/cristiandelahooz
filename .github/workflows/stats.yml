@@ -1,46 +1,40 @@
-name: Update gist with most used programming languages
+name: Update GitHub Stats Gist
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 */12 * * *'
+  push:
+    branches: master
 jobs:
-  language-box:
+  run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v
+      - uses: actions/setup-node@master
         with:
           node-version: 20
 
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        id: pnpm-install
+      - name: Cache dependencies
+        uses: actions/cache@v4
         with:
-          version: 8
-          run_install: false
-
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - uses: actions/cache@v4
-        name: Setup pnpm cache
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+            ${{ runner.os }}-node-
 
-      - name: Update
-        run: pnpm dlx github-lang-box@1
+      - name: Github stats box
+        run: npx github-stats-box@1
         env:
-          GIST_ID: ${{ secrets.GIST_ID }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_USERNAME: ${{ secrets.GH_USERNAME }}
-          EXCLUDE: ${{ secrets.EXCLUDE }}
-          DESCRIPTION: ${{ secrets.DESCRIPTION }}
+          GIST_ID: e6e77169fc620bca4304466d182a3a8d
+          ALL_COMMITS: true
+          K_FORMAT: false
+
+      - name: Github languages Stats box
+        run: npx github-lang-box@1
+        env:
+          GIST_ID: e6e77169fc620bca4304466d182a3a8d
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USERNAME: cristiandelahooz
+          EXCLUDE: ${{ vars.EXCLUDE }}
+          EXCLUDE_REPO: ${{ vars.EXCLUDE_REPO }}
+          DESCRIPTION: "languages"
