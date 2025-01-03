@@ -29,13 +29,6 @@ jobs:
           ALL_COMMITS: true
           K_FORMAT: false
 
-      - name: leetcode-box
-        uses: puiiyuen/leetcode-box@v0.1.2
-        env:
-          GIST_ID: a16df8d862f4066bae5547449d99d8b9
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          LEETCODE_USERNAME: SaratrasV
-           
       - name: Github languages Stats box
         run: npx github-lang-box@1
         env:
