@@ -5,8 +5,6 @@
 <img src="https://github.com/user-attachments/assets/41e18e00-11de-4bfb-993a-d1f05d4b8842" width="126">
     <img src="https://github.com/user-attachments/assets/af795ee9-af4a-4683-acc8-d4b30af3d02e" width="190">
 <img src="https://github.com/user-attachments/assets/41e18e00-11de-4bfb-993a-d1f05d4b8842" width="126">
-    <img src="https://github.com/user-attachments/assets/af795ee9-af4a-4683-acc8-d4b30af3d02e" width="190">
-    <img src="https://github.com/user-attachments/assets/41e18e00-11de-4bfb-993a-d1f05d4b8842" width="126">
     <br>
 </article>
 <article class="browser-tab">
