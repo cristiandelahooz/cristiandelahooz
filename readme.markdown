@@ -1,6 +1,6 @@
 <section class="principal content" style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap; align-items: flex-start; width: 100%; max-width: 1000px; margin: 0 auto;">
   <article class="couple-pictures" style="gap: 10px">
-&nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
 <img src="https://github.com/user-attachments/assets/af795ee9-af4a-4683-acc8-d4b30af3d02e" width="210">
 <img src="https://github.com/user-attachments/assets/41e18e00-11de-4bfb-993a-d1f05d4b8842" width="140">
     <img src="https://github.com/user-attachments/assets/af795ee9-af4a-4683-acc8-d4b30af3d02e" width="210">
