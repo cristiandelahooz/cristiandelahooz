@@ -1,4 +1,4 @@
-# ![Static Badge](https://img.shields.io/badge/🔥-F7DF1E?style=for-the-badge&logo=superuser&logoColor=rgba&label=Ignatius)
+![Static Badge](https://img.shields.io/badge/🐦‍🔥-F7DF1E?style=for-the-badge&logo=superuser&logoColor=rgba&label=Ignatius)
 
 # Hey there, I'm Cristian de la Hoz 👋
 
