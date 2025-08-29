@@ -31,7 +31,7 @@
 ## ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,linux,arch,neovim,js,c,git,github,postgresql,docker&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,spring,linux,arch,neovim,ts,python,githubactions,gradle,hibernate,idea,latex,maven,nextjs,postman,vscode,c,git,github,postgresql,docker&theme=dark" />
 </p>
 
 ---
@@ -39,7 +39,7 @@
 ## ✨ Favorite Tools
 
 - 🖋️ **Editor**: Neovim (custom config & Lua magic 🪄)  
-- 🖥️ **OS/WM**: Arch Linux + Qtile  
+- 🖥️ **OS/WM**: Arch Linux + Qtile  lover (currently macos)
 - ⚡ **Backend**: Java + Spring Boot  
 - 🗄️ **Database**: PostgreSQL / SQL Server  
 ---
